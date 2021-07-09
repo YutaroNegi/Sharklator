@@ -1,0 +1,103 @@
+@import url(https://fonts.google.com/specimen/Spartan);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+}
+#title{
+    margin: 20px;
+    font-size: 26px;
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    font-family:'Roboto', sans-serif;
+}
+
+body{
+    background-color: hsl(222, 26%, 31%);
+}
+
+#mainContainer{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    padding: 20px;
+    margin: 18px;
+    width: 38vh;
+    border-radius: 10px;
+}
+
+#resultDiv{
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    background-color: hsl(224, 36%, 15%);
+    font-weight: 100;
+    font-size: 40px;
+    height: 40px;
+}
+
+#btnDiv{
+    background-color: hsl(223, 31%, 20%);
+}
+
+#keyGrid{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+}
+
+#cmdContainer{
+    display: grid;
+    grid-template-rows: auto ;
+    grid-template-columns: 50% 50%;
+    justify-items: stretch;
+}
+
+button{
+    padding: 5px;
+    margin: 8px;
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: 100;
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0px 2px hsl(28, 16%, 65%);
+    border: none;
+    color: hsl(221, 14%, 31%);
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0px 2px hsl(224, 28%, 35%);
+    color: hsl(30, 25%, 89%)
+}
+
+.redBtn{
+    color: hsl(30, 25%, 89%);;
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0px 2px hsl(6, 70%, 34%);
+}
+.redBtn:hover{
+    background-color:hsl(6, 70%, 34%);
+    box-shadow: 0px 2px hsl(6, 70%, 34%);
+}
+
+.blueBtn{
+    font-size: 25px;
+    color: hsl(30, 25%, 89%);
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0px 2px hsl(224, 28%, 35%);
+}
+
+.blueBtn:hover{
+    color: hsl(221, 14%, 31%);
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0px 2px hsl(28, 16%, 65%);
+}
