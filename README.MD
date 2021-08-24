@@ -12,7 +12,7 @@
  # Sobre
  <img src="./gifCalc.gif" >
 
- <p>Sharklator, a Calculadora criada com JS, HTML E CSS - O design foi retirado do site: <a href="https://www.frontendmentor.io/">Front End Mentor</a></p>
+ <p>Sharklator, a Calculadora criada com JS, HTML E CSS</p>
  <p>Você mesmo pode conferir o projeto clicando nesse <a href="https://yutaronegi.github.io/Sharklator/">Link</a></p>
 
 
